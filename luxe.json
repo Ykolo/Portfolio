@@ -4,6 +4,6 @@
   },
   "aliases": {
     "components": "@/components/luxe",
-    "utils": "@/lib/utils"
+    "utils": "@/lib"
   }
 }
