@@ -1,11 +1,15 @@
-import Image from "next/image";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 export default function Home() {
   return (
-    <main>
-      <h1 className="text-4xl font-bold">Welcome to Luxe</h1>
-      <p className="mt-4">Your one-stop solution for all things luxury.</p>
-      <Image src="/luxury-image.jpg" alt="Luxury" width={500} height={300} />
-    </main>
+    <>
+      <Header />
+      <main>
+        <h1 className="text-4xl font-bold">Welcome to Luxe</h1>
+        <p className="mt-4">Your one-stop solution for all things luxury.</p>
+      </main>
+      <Footer />
+    </>
   );
 }
