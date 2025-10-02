@@ -18,7 +18,9 @@ export function ModeToggle() {
     <div className="flex items-center space-x-2">
       <Switch
         checked={isDark}
-        onCheckedChange={(checked: any) => setTheme(checked ? "dark" : "light")}
+        onCheckedChange={(checked: boolean) =>
+          setTheme(checked ? "dark" : "light")
+        }
       />
     </div>
   );
