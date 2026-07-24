@@ -52,6 +52,18 @@ export default function ContactPage() {
                   </button>
                 </Magnetic>
               </Reveal>
+              <Reveal delay={210}>
+                <a
+                  className="linkpill"
+                  href="/cv-loic-lau.pdf"
+                  download="CV-Loic-Lau.pdf"
+                  style={{ marginTop: 18, display: "inline-flex" }}
+                  data-hot
+                >
+                  <span style={{ display: "inline-flex", width: 16 }}>{Icons.download}</span>
+                  {t.contact.resume}
+                </a>
+              </Reveal>
               <Reveal delay={240}>
                 <div className="contact-socials">
                   <span className="label" style={{ marginBottom: 4 }}>

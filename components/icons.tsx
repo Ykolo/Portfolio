@@ -19,6 +19,11 @@ export const Icons: Record<string, ReactElement> = {
       <path d="M7 17 17 7M9 7h8v8" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
   ),
+  download: (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
+      <path d="M12 3v12M7 10l5 5 5-5M5 21h14" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  ),
   arrowLeft: (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
       <path d="M19 12H5M11 6l-6 6 6 6" strokeLinecap="round" strokeLinejoin="round" />

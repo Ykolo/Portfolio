@@ -70,6 +70,7 @@ const fr = {
     or: "ou retrouvez-moi sur",
     location: "Localisation",
     localTime: "Heure locale",
+    resume: "Télécharger mon CV",
   },
   footer: {
     built: "Conçu & codé par",
@@ -152,6 +153,7 @@ const en: Dict = {
     or: "or find me on",
     location: "Location",
     localTime: "Local time",
+    resume: "Download my résumé",
   },
   footer: {
     built: "Designed & built by",
@@ -232,6 +234,7 @@ const cn: Dict = {
     or: "或在这些平台找到我",
     location: "位置",
     localTime: "当地时间",
+    resume: "下载我的简历",
   },
   footer: {
     built: "设计与开发",

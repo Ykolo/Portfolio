@@ -20,42 +20,12 @@ export const PROJECTS: Project[] = [
       cn: "在 Kled Consulting 实习期间开发的运输管理渐进式 Web 应用。从 Figma 原型到生产上线：使用 Next.js、Prisma 和 tRPC 构建端到端类型安全的密集界面，采用 shadcn 组件，部署于 Vercel 和 Neon，在以 Jira 管理的敏捷团队中协作完成。",
     },
     stack: ["Next.js", "TypeScript", "Prisma", "tRPC", "shadcn/ui", "Vercel", "Neon"],
-    metrics: [
-      { k: "Type", v: "PWA" },
-      { k: "Stack", v: "T3-like" },
-      { k: "Équipe", v: "Agile" },
-    ],
+    metrics: [{ k: "Contexte", v: "Alternance" }],
     links: [{ type: "figma", label: "Figma", url: "https://figma.com" }],
   },
   {
-    slug: "lambda-recrutement",
-    index: "02",
-    title: "Plateforme de recrutement",
-    year: "2025",
-    kind: { fr: "Application web", en: "Web application", cn: "Web 应用" },
-    role: { fr: "Développement full-stack", en: "Full-stack development", cn: "全栈开发" },
-    accent: "#2E6BFF",
-    tagline: {
-      fr: "Une plateforme de recrutement conçue chez Lambda Labs.",
-      en: "A recruitment platform built at Lambda Labs.",
-      cn: "在 Lambda Labs 打造的招聘平台。",
-    },
-    description: {
-      fr: "Conception et développement d'une plateforme de recrutement lors de mon stage chez Lambda Labs. Côté produit : un système de vérification par email avec Nodemailer, un rate limiter pour protéger les endpoints sensibles, et une fonctionnalité de newsletter avec gestion complète des abonnements. Construit en TypeScript, React, Next.js et MongoDB.",
-      en: "Designed and built a recruitment platform during my internship at Lambda Labs. On the product side: email verification with Nodemailer, a rate limiter to protect sensitive endpoints, and a newsletter feature with full subscription management. Built with TypeScript, React, Next.js and MongoDB.",
-      cn: "在 Lambda Labs 实习期间设计并开发的招聘平台。产品层面包括：基于 Nodemailer 的邮件验证、保护敏感接口的限流器，以及带完整订阅管理的新闻订阅功能。使用 TypeScript、React、Next.js 和 MongoDB 构建。",
-    },
-    stack: ["TypeScript", "React", "Next.js", "MongoDB", "Nodemailer"],
-    metrics: [
-      { k: "Auth", v: "Email" },
-      { k: "Sécurité", v: "Rate limit" },
-      { k: "Stage", v: "2 mois" },
-    ],
-    links: [],
-  },
-  {
     slug: "one-shot-booth",
-    index: "03",
+    index: "02",
     title: "OneShot Booth",
     year: "2026",
     kind: { fr: "Site vitrine", en: "Marketing site", cn: "营销网站" },
@@ -76,18 +46,14 @@ export const PROJECTS: Project[] = [
       cn: "为 OneShot Booth 打造的营销网站——一家为婚礼、生日和企业活动提供拍照亭租赁的服务商（360° 拍照亭、魔镜、经典亭）。以现代、活泼的界面展示套餐、在线预订和活动相册。使用 Next.js 和 TypeScript 构建，部署于 Vercel。",
     },
     stack: ["Next.js", "TypeScript", "React", "Tailwind CSS", "Vercel"],
-    metrics: [
-      { k: "Type", v: "Vitrine" },
-      { k: "Booking", v: "En ligne" },
-      { k: "Note", v: "4.9/5" },
-    ],
+    metrics: [{ k: "Contexte", v: "Alternance" }],
     links: [
       { type: "live", label: "Live", url: "https://one-shot-booth.vercel.app" },
     ],
   },
   {
     slug: "hephaistos-paris",
-    index: "04",
+    index: "03",
     title: "Héphaïstos Paris",
     year: "2026",
     kind: {
@@ -112,18 +78,14 @@ export const PROJECTS: Project[] = [
       cn: "Héphaïstos 的预售落地页——一个法国男士护肤品牌，将护理视为日常自律。展示「Les Fondations」系列（洁面、精华、面霜），围绕希腊神话的品牌叙事，以及抢先体验注册。深色极简风格，使用 Next.js、TypeScript 和 Tailwind CSS 构建。",
     },
     stack: ["Next.js", "TypeScript", "React", "Tailwind CSS", "Vercel"],
-    metrics: [
-      { k: "Type", v: "Landing" },
-      { k: "Statut", v: "Pré-lancement" },
-      { k: "Origine", v: "Made in France" },
-    ],
+    metrics: [{ k: "Contexte", v: "Freelance" }],
     links: [
       { type: "live", label: "Live", url: "https://hephaistos-ochre.vercel.app" },
     ],
   },
   {
     slug: "la-maison-du-gout",
-    index: "05",
+    index: "04",
     title: "La Maison du Goût",
     year: "2026",
     kind: {
@@ -148,18 +110,14 @@ export const PROJECTS: Project[] = [
       cn: "为 La Maison du Goût 打造的营销网站——一家手工奶酪肉铺（清真产品）。功能包括 30 分钟线上下单自提、定制拼盘（奶酪、熟食、配菜）、二维码桌边点单，以及面向商户的餐饮供应服务。简洁现代的界面，使用 Next.js、TypeScript 和 Tailwind CSS 构建。",
     },
     stack: ["Next.js", "TypeScript", "React", "Tailwind CSS", "Vercel"],
-    metrics: [
-      { k: "Type", v: "Vitrine" },
-      { k: "Retrait", v: "Click & collect" },
-      { k: "Table", v: "QR code" },
-    ],
+    metrics: [{ k: "Contexte", v: "Alternance" }],
     links: [
       { type: "live", label: "Live", url: "https://la-maison-du-gout.vercel.app" },
     ],
   },
   {
     slug: "sk-beaute",
-    index: "06",
+    index: "05",
     title: "SK Beauté",
     year: "2026",
     kind: { fr: "Site vitrine", en: "Marketing site", cn: "营销网站" },
@@ -180,18 +138,14 @@ export const PROJECTS: Project[] = [
       cn: "为 SK Beauté 打造的营销网站——一家专注于线雕脱毛、蜜蜡脱毛以及手足护理的美容工作室。清晰展示服务与套餐，价格透明。柔和实用的界面，使用 Next.js、TypeScript 和 Tailwind CSS 构建。",
     },
     stack: ["Next.js", "TypeScript", "React", "Tailwind CSS", "Vercel"],
-    metrics: [
-      { k: "Type", v: "Vitrine" },
-      { k: "Prestations", v: "Épilation" },
-      { k: "Tarifs", v: "Transparents" },
-    ],
+    metrics: [{ k: "Contexte", v: "Alternance" }],
     links: [
       { type: "live", label: "Live", url: "https://sk-beaute.vercel.app" },
     ],
   },
   {
     slug: "lenahya-beauty",
-    index: "07",
+    index: "06",
     title: "Lenahya Beauty",
     year: "2026",
     kind: {
@@ -216,11 +170,7 @@ export const PROJECTS: Project[] = [
       cn: "为 Lenahya Beauty 打造的营销网站——位于邦迪的一家印度美容院，提供线雕脱毛、面部护理、美甲、美足和印度纹身。展示服务、价目表并通过 Treatwell 预约，秉持「优质护理，亲民价格」的理念。使用 Next.js、TypeScript 和 Tailwind CSS 构建。",
     },
     stack: ["Next.js", "TypeScript", "React", "Tailwind CSS", "Vercel"],
-    metrics: [
-      { k: "Type", v: "Vitrine" },
-      { k: "Réservation", v: "Treatwell" },
-      { k: "Lieu", v: "Bondy" },
-    ],
+    metrics: [{ k: "Contexte", v: "Alternance" }],
     links: [
       { type: "live", label: "Live", url: "https://lenahya-beauty.vercel.app" },
     ],

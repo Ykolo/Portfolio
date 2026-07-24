@@ -43,3 +43,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# CV downloadable asset (exception to *.pdf above)
+!public/cv-loic-lau.pdf
